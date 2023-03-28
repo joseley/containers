@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table.transactions {
+    text-align: left;
+    border-spacing: 0;
+}
+
+table.transactions thead {
+    background-color:dodgerblue;
+    color: white;
+}
+
+table.transactions thead th {
+    padding: 10px;
+    padding-left: 5;
+}
+
+table.transactions tbody td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(7, 46, 119); 
+}
+
+table.tracking {
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+
+table.tracking th:nth-child(1),td:nth-child(1) {
+    min-width: 100px;
+}
+
+table.tracking th:nth-child(2),td:nth-child(2) {
+    min-width: 200px;
+}
+
+table.tracking th:nth-child(3),td:nth-child(3) {
+    min-width: 75px;
+}
